@@ -96,40 +96,41 @@ firebase deploy
 ---
 
 ## 🏗️ Project Architecture
+
 zap-shift-client/
 ├── firebase/                 # Firebase configuration
-├── dist/                    # Build output
-├── public/                  # Static assets
+├── dist/                     # Build output
+├── public/                   # Static assets
 │   ├── serviceCenter.json
 │   └── vite.svg
 └── src/
-    ├── components/          # Reusable components
+    ├── components/           # Reusable components
     │   ├── Loading.jsx
     │   └── UpdateProfile.jsx
     ├── firebase/
     │   └── firebase.init.js
-    ├── hooks/               # Custom React hooks
+    ├── hooks/                # Custom React hooks
     │   ├── useAuth.jsx
     │   ├── useAxios.jsx
     │   ├── useAxiosSecure.jsx
     │   ├── useUpdateTracking.jsx
     │   └── useUserRole.jsx
-    ├── Layout/              # Application layouts
+    ├── Layout/               # Application layouts
     │   ├── AuthLayout.jsx
     │   ├── DashboardLayout.jsx
     │   └── RootLayout.jsx
-    ├── Pages/               # All application pages
-    │   ├── Authentication/  # Login/Register flows
-    │   ├── Coverage/        # Service areas
-    │   ├── Dashboard/       # Role-specific dashboards
-    │   ├── Payment/         # Payment processing
-    │   ├── Home/           # Landing pages
-    │   └── shared/         # Common components
-    ├── Provider/           # Context providers
-    ├── SendParcel/         # Parcel booking
-    ├── routes/             # Protected routes
+    ├── Pages/                # All application pages
+    │   ├── Authentication/   # Login/Register flows
+    │   ├── Coverage/         # Service areas
+    │   ├── Dashboard/        # Role-specific dashboards
+    │   ├── Payment/          # Payment processing
+    │   ├── Home/             # Landing pages
+    │   └── shared/           # Common components
+    ├── Provider/             # Context providers
+    ├── SendParcel/           # Parcel booking
+    ├── routes/               # Protected routes
     └── router.jsx
----
+
 
 ## 🛠️ Technology Stack
 
