@@ -1,4 +1,4 @@
-# Zap-Shift Courier Service
+# 🚀 Zap-Shift Courier Service
 
 A modern, full-stack courier delivery management platform built with **React** and **Firebase**, featuring multi-role access, real-time tracking, and seamless parcel management.
 
@@ -8,6 +8,7 @@ A modern, full-stack courier delivery management platform built with **React** a
 
 🔗 **Primary URL**: [https://zap-shift-client-3b673.web.app](https://zap-shift-client-3b673.web.app)
 🔗 **Firebase URL**: [https://zap-shift-client-3b673.firebaseapp.com](https://zap-shift-client-3b673.firebaseapp.com)
+
 ---
 
 ## 🎯 Features
@@ -43,7 +44,7 @@ A modern, full-stack courier delivery management platform built with **React** a
 1. **Clone the repository**
 
 ```bash
-git clone [https://github.com/your-username/zap-shift-client.git](https://github.com/ruhulshanto/zap-shift-client.git)
+git clone https://github.com/ruhulshanto/zap-shift-client.git
 cd zap-shift-client
 ```
 
@@ -97,6 +98,7 @@ firebase deploy
 
 ## 🏗️ Project Architecture
 
+```text
 zap-shift-client/
 ├── firebase/                 # Firebase configuration
 ├── dist/                     # Build output
@@ -130,7 +132,9 @@ zap-shift-client/
     ├── SendParcel/           # Parcel booking
     ├── routes/               # Protected routes
     └── router.jsx
+```
 
+---
 
 ## 🛠️ Technology Stack
 
@@ -179,8 +183,6 @@ zap-shift-client/
 
 ## 🤝 Contributing
 
-We welcome contributions!
-
 1. Fork the repo
 2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
 3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
@@ -200,4 +202,5 @@ This project is licensed under the **MIT License** - see the [LICENSE.md](LICENS
 * Open an issue on GitHub
 * Contact: `ruhulshanto8082@gmail.com`
 
+---
 
