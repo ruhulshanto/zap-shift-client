@@ -96,108 +96,39 @@ firebase deploy
 ---
 
 ## 🏗️ Project Architecture
-
 zap-shift-client/
-├── 📁 firebase/           # Firebase configuration and services
-├── 📁 dist/               # Build output directory
-├── 📁 node_modules/       # Dependencies
-├── 📁 public/             # Static assets
+├── firebase/                 # Firebase configuration
+├── dist/                    # Build output
+├── public/                  # Static assets
 │   ├── serviceCenter.json
 │   └── vite.svg
-└── 📁 src/                # Source code
-    ├── 📁 components/     
+└── src/
+    ├── components/          # Reusable components
     │   ├── Loading.jsx
     │   └── UpdateProfile.jsx
-    ├── 📁 firebase/       
+    ├── firebase/
     │   └── firebase.init.js
-    ├── 📁 hooks/          
+    ├── hooks/               # Custom React hooks
     │   ├── useAuth.jsx
     │   ├── useAxios.jsx
     │   ├── useAxiosSecure.jsx
     │   ├── useUpdateTracking.jsx
     │   └── useUserRole.jsx
-    ├── 📁 Layout/
+    ├── Layout/              # Application layouts
     │   ├── AuthLayout.jsx
     │   ├── DashboardLayout.jsx
     │   └── RootLayout.jsx
-    ├── 📁 Pages/
-    │   ├── 📁 Authentication/
-    │   │   ├── 📁 GoogleLogin/
-    │   │   │   └── GoogleLogin.jsx
-    │   │   ├── 📁 Login/
-    │   │   │   └── Login.jsx
-    │   │   └── 📁 Register/
-    │   │       └── Register.jsx
-    │   ├── 📁 Coverage/
-    │   │   ├── coverages.css
-    │   │   └── Coverage.jsx
-    │   ├── 📁 Dashboard/
-    │   │   ├── 📁 ActiveRiders/
-    │   │   │   └── ActiveRiders.jsx
-    │   │   ├── 📁 AssignRider/
-    │   │   │   └── AssignRider.jsx
-    │   │   ├── 📁 BoxRider/
-    │   │   │   └── BoxRider.jsx
-    │   │   ├── 📁 CompletedDeliveries/
-    │   │   │   └── CompletedDeliveries.jsx
-    │   │   ├── 📁 DashboardHome/
-    │   │   │   ├── AdminDashboardHome.jsx
-    │   │   │   ├── DashboardHome.jsx
-    │   │   │   └── RiderDashboardHome.jsx
-    │   │   ├── 📁 MakeAdminist/
-    │   │   │   └── MakeAdminist.jsx
-    │   │   ├── 📁 MyEarning/
-    │   │   │   └── MyEarning.jsx
-    │   │   └── 📁 MyParcels/
-    │   │       ├── MyParcelData.jsx
-    │   │       └── MyParcels.jsx
-    │   ├── 📁 Payment/
-    │   │   ├── Payment.jsx
-    │   │   ├── PaymentForm.jsx
-    │   │   └── 📁 PaymentHistory/
-    │   │       └── PaymentHistory.jsx
-    │   ├── 📁 PendingDeliveries/
-    │   │   └── PendingDeliveries.jsx
-    │   ├── 📁 PendingRiders/
-    │   │   └── PendingRiders.jsx
-    │   ├── 📁 TrackParcel/
-    │   │   └── TrackParcel.jsx
-    │   └── 📁 Forbidden/
-    │       └── Forbidden.jsx
-    ├── 📁 Home/
-    │   ├── 📁 Banner/
-    │   ├── 📁 BeMerchant/
-    │   ├── 📁 ClientLogoMarquee/
-    │   ├── 📁 Features/
-    │   │   ├── Features.jsx
-    │   │   └── FeatureScan.jsx
-    │   ├── 📁 FrequentAskQuestion/
-    │   │   └── FrequentlyAskedQuestions.jsx
-    │   ├── Home.jsx
-    │   ├── 📁 HourWork/
-    │   ├── 📁 Reviews/
-    │   │   ├── ClientReview.jsx
-    │   │   └── ClientReviewCard.jsx
-    │   └── 📁 Services/
-    │       ├── ServiceCard.jsx
-    │       └── Services.jsx
-    ├── 📁 Provider/
-    │   ├── AuthContext.jsx
-    │   └── AuthProvider.jsx
-    ├── 📁 SendParcel/
-    │   └── SendParcel.jsx
-    ├── 📁 shared/
-    │   ├── 📁 Footer/
-    │   │   └── Footer.jsx
-    │   └── 📁 Navbar/
-    │       └── Navbar.jsx
-    ├── router.jsx
-    └── 📁 routes/
-        ├── AdminRoute.jsx
-        ├── PrivateRoute.jsx
-        └── RiderRoute.jsx
-
-
+    ├── Pages/               # All application pages
+    │   ├── Authentication/  # Login/Register flows
+    │   ├── Coverage/        # Service areas
+    │   ├── Dashboard/       # Role-specific dashboards
+    │   ├── Payment/         # Payment processing
+    │   ├── Home/           # Landing pages
+    │   └── shared/         # Common components
+    ├── Provider/           # Context providers
+    ├── SendParcel/         # Parcel booking
+    ├── routes/             # Protected routes
+    └── router.jsx
 ---
 
 ## 🛠️ Technology Stack
@@ -268,11 +199,4 @@ This project is licensed under the **MIT License** - see the [LICENSE.md](LICENS
 * Open an issue on GitHub
 * Contact: `ruhulshanto8082@gmail.com`
 
----
 
-<div align="center">
-
-**Built with ❤️ using React & Firebase**
-[Live Demo](https://zap-shift-client-3b673.web.app) • [Report Bug](https://github.com/your-username/zap-shift-client/issues) • [Request Feature](https://github.com/your-username/zap-shift-client/issues)
-
-</div>
