@@ -43,7 +43,7 @@ A modern, full-stack courier delivery management platform built with **React** a
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/your-username/zap-shift-client.git
+git clone [https://github.com/your-username/zap-shift-client.git](https://github.com/ruhulshanto/zap-shift-client.git)
 cd zap-shift-client
 ```
 
